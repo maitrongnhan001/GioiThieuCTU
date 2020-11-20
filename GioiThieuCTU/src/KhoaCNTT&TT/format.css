@@ -1,0 +1,22 @@
+*{
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+body{
+    font-family: "Helvettica Neue", Helvetica,Arial, sans-serif;
+    font-weight: 300;
+    color: #333;
+    line-height: 1.254;
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    color: #3b8bba;
+    transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+}
