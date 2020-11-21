@@ -20,3 +20,120 @@ a{
     -moz-transition: all 0.5s;
     -webkit-transition: all 0.5s;
 }
+
+a:hover{
+    color: #265780;
+}
+
+#container{
+    background-color: #ddd2d2;
+    padding-left: 200px;
+    position: relative;
+    left: 0;
+    width: 100%;
+    z-index: 0;
+}
+
+#menu{
+    position: fixed;
+    height: 100%;
+    background-color: #191818;
+    width: 200px;
+    left: 0;
+    z-index: 2;
+}
+
+#menu ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#menu ul li{
+    line-height: 2.9em;
+    height: auto;
+    transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    position: relative;
+}
+#menu ul li a{
+    display: block;
+    color: #fff;
+    padding: 0 0.5em;
+    border-bottom: 1px solid #333;
+}
+#menu ul li:hover{
+    background-color: #454545;
+}
+
+/*==submenu==*/
+
+#menu .submenu{
+    position: absolute;
+    width: 200px;
+    left: 200px;
+    background-color: #191818;
+    top: 0;
+    display: none;
+    z-index: 2;
+}
+
+#menu ul li:hover .submenu{
+    display: block;
+}
+
+/*==content==*/
+#content{
+    padding: 3% 10%;
+    z-index: 0;
+}
+
+/*--Hearder--*/
+.header{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: #8997a0;
+}
+
+.slogan{
+    margin-top: -20px;
+    text-align: center;
+    color: #8997a0;
+}
+
+/*--paragraph--*/
+
+.paragraph{
+    margin: 0;
+    padding: 0;
+    text-align: justify;
+}
+
+/*--image--*/
+.image1{
+    width: 90%;
+}
+
+.image2{
+    width: 90%;
+}
+
+.image3{
+    margin: 0;
+    margin-top: -15px;
+    padding: 0;
+    width: 40%;
+    position: relative;
+    left: 30%;
+}
+
+.endPage{
+    position: relative;
+    margin: 0;
+    padding: 0;
+    top: 10%;
+    left: 5%;
+    text-align: center;
+}
