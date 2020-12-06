@@ -1,0 +1,135 @@
+
+/* format body */
+body{
+    font-size: 20px;
+    font-family: "Helvettica Neue", Helvetica,Arial, sans-serif;
+    font-weight: 300;
+    color: #333333;
+    line-height: 1.254;
+    margin: 0;
+    padding: 0;
+    background-color: #325b5f;
+}
+
+/* format contenner */
+.contenner {
+    margin: 0;
+    padding: 0;
+    background-color: #325b5f;
+    position: relative;
+}
+
+/* format content */
+.content{
+    margin: 0;
+    padding: 0;
+    width: 90%;
+    position: absolute;
+    left: 5%;
+}
+
+/* format header */
+.header{
+    position: relative;
+    margin-top:-30px;
+    padding: 0;
+    background-image: url(../images/khoaCNTT&TT/768x512_cac-truong-dao-tao-nganh-ky-thuat-phan-mem-05.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    /*background-color: rgb(178, 221, 250);*/
+    width: 100%;
+    text-align: center;
+    color: #97c4ff;
+}
+/* format slogan */
+.slogan{
+    margin-top: -30px;
+    font-size: 15px;
+    text-align: center;
+    color: #97c4ff;
+}
+
+/* paragraphs */
+.paragraph{
+    border-radius: 10px;
+    margin: 0;
+    margin-top: -15px;
+    padding: 0;
+    background-color: white;
+    box-shadow: 5px 5px 10px black;
+}
+
+.paragraph > div {
+    position: relative;
+    width: 90%;
+    left: 5%;
+    margin: 0;
+    padding: 0;
+    text-align: justify;
+}
+
+div > img{
+    width: 100%;
+}
+
+/* text */
+.text{
+    margin: 0;
+    padding: 0;
+}
+
+
+/* format end */ 
+
+.menuEnd{
+    margin:0;
+    padding: 0;
+    margin-top: 10px;
+    position: relative;
+    width: 100%;
+}
+
+.menuEnd ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: white;
+    border-radius: 10px;
+    z-index: 0;
+    box-shadow: 5px 5px 10px black;
+}
+
+.menuEnd ul li {
+    line-height: 2.9em;
+    transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+
+    position: relative;
+    border-bottom: 1px solid #191818;
+    text-align: center;
+}
+
+.menuEnd ul li div {
+    width: 100%;
+    display: block;
+    text-decoration: none;
+    color: black;
+    transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+}
+
+.menuEnd ul li :hover{
+    color: #8ebef3;
+}
+
+.menuEnd ul li .subMenu{
+    position: absolute;
+    display: none;
+}
+
+.menuEnd ul li :hover .subMenu{
+    display: block;
+    z-index: 1;
+}
